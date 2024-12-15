@@ -24,14 +24,22 @@ And we need some citation here\cite{floyd1993random, stoica2001chord}
 \Blindtext
 
 \section{System Design}
+Although we know which devices and localization methods we are going to use, there are many ways to determine how the robot will read and react to different scenarios. In order to avoid bias and help focus on overall feasibility, we propose three diverse routing methods that can fully test the potential of consumer robotic access points.
 
-\subsection{The First Layer}
-\Blindtext
+\subsection{Roaming}
+The roaming method is an instinctive approach to routing with an indicator like RSSI. The idea is to feel for the location of optimal RSSI in a home. The robot should start off by roaming around its starting point randomly. If the RSSI has increased a favorable amount while moving in a given direction, the robot should set its new starting point to its current location and begin roaming once again. The robot should eventually converge to a location with an RSSI above a desired threshold and wait until quality worsens, where it will then repeat the process.\par
+Roaming has the benefit of, navigation aside, being dynamic to any environment with little user configuration. It could theoretically follow a user wherever they go and could be programmed to safely navigate the environment rather than move randomly, though this is not trivial.
 
-\subsection{The Second Layer}
-\Blindtext
+\subsection{Spinning}
+The goal of the spinning method is to narrow down the general direction of the client and intelligently move in that direction until a goal RSSI is achieved. Upon worsening, the method should wake and repeat. This method requires attaching two antennas to the top of the robot. We use this setup to get the location of the client by comparing the per antenna RSSI every X degrees (30 by default). If the ratio of a1/a2 or a2/a1 is larger than a threshold value (1.1 by default), we use that as our direction and move towards it for a distance before repeating all the steps. This should eventually converge to a location that can achieve some desired RSSI value.\par
+Like Roaming, assuming navigation can be handled smoothly, this solution is dynamic to any environment and has no implied user configuration. This method, however, calculates before moving rather than constantly guessing. This should result in a higher movement efficiency but has a higher calculation overhead (as sampling RSSI and rotating the robot takes time).
 
-\section{Evaluation}
+\subsection{Save Points}
+Save Points looks to take advantage of household habits by having an internal mapping of preferred spots around the house instead of being fully dynamic. The robot should linger at one of these positions if the RSSI is under a desired threshold, and should continue to recalculate it’s RSSI while it is physically idle. Once the connection worsens, the robot should switch to different preferred spots until the goal RSSI is seen again.\par
+This method relies less on localization and has predictable movement, which may fit better in real world scenarios. Since it’s not dynamic, it has little calculation overhead, but requires the internet traffic to have some structure. It also requires the user to predict their own traffic in order to configure these points, which is what a smart robotic access point should be mitigating.
+
+
+\section{Results/Validation}
 \Blindtext
 
 \section{Conclusion}
