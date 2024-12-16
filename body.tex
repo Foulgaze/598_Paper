@@ -10,18 +10,18 @@ The prior situation highlights a less-discussed issue with APs. Most consumers p
 This paper addresses the static AP issue with two primary aims. First, it proposes a solution: a dynamic wireless access point. Second, it evaluates various routing methods and their ability to maintain signal strength for users on the network. A dynamic AP solves the tradeoff between signal strength and signal speed by eliminating it almost entirely. By moving the AP to the user, the user can experience the best of both worlds: consistently fast speeds without needing to worry about connection strength. At its core, a dynamic AP requires two key components: a means of movement and a method to connect to users. For our tests, we utilized the iRobot Create 3 as the movement platform and the ASUS RT-AC86U as the consumer-grade AP. In lieu of access to a large home, all tests were run within the Thomas M. Siebel Center for Computer Science on the University of Illinois Urbana-Champaign campus. 
 
 
-\begin{figure}[tp]
-\centering
-\includegraphics{figures/mouse}
-\caption{\blindtext}
-\end{figure}
-
 \section{Related Work}
-\blindtext
+\subsection{RSSI Localization}
+The most common form of localization is the Global Positioning System (GPS). While GPS is highly accurate outdoors due to its usage of satellites, it performs far worse indoors. GPS signals are prone to interference and are often too weak to penetrate indoor spaces.  This has led to research involving using Received Signal Strength Indicator (RSSI) as a method of indoor localization. In wireless communication, RSSI is used as a measure of distance between devices based on signal strength. With 3 APs measuring the RSSI of the same device, trilateration can be employed to estimate the true location of the device rather than just the distance \cite{rssiLocalization}.
 
-And we need some citation here\cite{floyd1993random, stoica2001chord}
+Trilaterion works as follows: Each AP calculates its distance to the client device based on RSSI. Then each AP will draw a circle around itself, with the radius representing the measured distance. The intersection points of the circles drawn by each AP represent potential positions for the client. The only necessary information for this calculation is the RSSI and the real-world position of the APs. RSSI localization is effective when up close (less than 5 meters), but as the distance increases it becomes far less accurate. 
 
-\Blindtext
+% \begin{figure}[tp]
+% \centering
+% \includegraphics{figures/mouse}
+% \caption{\blindtext}
+% \end{figure}
+
 
 \section{System Design}
 Although we know which devices and localization methods we are going to use, there are many ways to determine how the robot will read and react to different scenarios. In order to avoid bias and help focus on overall feasibility, we propose three diverse routing methods that can fully test the potential of consumer robotic access points.

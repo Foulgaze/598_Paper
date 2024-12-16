@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{2}
+\begin{thebibliography}{1}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,31 +37,18 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Floyd and Jacobson}{Floyd and
-  Jacobson}{1993}]%
-        {floyd1993random}
-\bibfield{author}{\bibinfo{person}{Sally Floyd} {and} \bibinfo{person}{Van
-  Jacobson}.} \bibinfo{year}{1993}\natexlab{}.
-\newblock \showarticletitle{Random early detection gateways for congestion
-  avoidance}.
-\newblock \bibinfo{journal}{{\em IEEE/ACM Transactions on Networking (ToN)\/}}
-  \bibinfo{volume}{1}, \bibinfo{number}{4} (\bibinfo{year}{1993}),
-  \bibinfo{pages}{397--413}.
+\bibitem[\protect\citeauthoryear{Sadowski and Spachos}{Sadowski and
+  Spachos}{2018}]%
+        {rssiLocalization}
+\bibfield{author}{\bibinfo{person}{Sebastian Sadowski} {and}
+  \bibinfo{person}{Petros Spachos}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{RSSI-Based Indoor Localization With the Internet of
+  Things}.
+\newblock \bibinfo{journal}{{\em IEEE Access\/}}  \bibinfo{volume}{6}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{30149--30161}.
 \newblock
-
-
-\bibitem[\protect\citeauthoryear{Stoica, Morris, Karger, Kaashoek, and
-  Balakrishnan}{Stoica et~al\mbox{.}}{2001}]%
-        {stoica2001chord}
-\bibfield{author}{\bibinfo{person}{Ion Stoica}, \bibinfo{person}{Robert
-  Morris}, \bibinfo{person}{David Karger}, \bibinfo{person}{M~Frans Kaashoek},
-  {and} \bibinfo{person}{Hari Balakrishnan}.} \bibinfo{year}{2001}\natexlab{}.
-\newblock \showarticletitle{Chord: A scalable peer-to-peer lookup service for
-  internet applications}.
-\newblock \bibinfo{journal}{{\em ACM SIGCOMM Computer Communication Review\/}}
-  \bibinfo{volume}{31}, \bibinfo{number}{4} (\bibinfo{year}{2001}),
-  \bibinfo{pages}{149--160}.
-\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/ACCESS.2018.2843325}}
 
 
 \end{thebibliography}
