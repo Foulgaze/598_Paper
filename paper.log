@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.13)  16 DEC 2024 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.13)  17 DEC 2024 13:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -991,63 +991,76 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 60.
 
 (./body.tex
-Underfull \vbox (badness 2932) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (9.61697pt too wide) in paragraph at lines 35--36
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Overfull \hbox (9.61697pt too wide) in paragraph at lines 41--42
 []\T1/LinuxLibertineT-TLF/m/n/10 (-20) Like Roam-ing, as-sum-ing nav-i-ga-tion 
 can be han-dled smoothly,
  []
 
-
-Underfull \vbox (badness 7851) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
- [2.2])
-(./paper.bbl
+(Font)              scaled to size 10.0pt on input line 50.
+[2.2]) (./paper.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 47.
 )
 - LAST -
 Extra skip:0.0pt
-Left:274.0pt/2.36pt
-Right:272.0pt/1.888pt
-Split: 274.0pt
-Output:274.0pt
-Pageshrink: 0.0pt
-Pagestretch: 0.0pt
+Left:430.0pt/0.11499pt
+Right:428.0pt/1.888pt
+Split: 430.0pt
+Output:430.0pt
+Pageshrink: 0.4pt
+Pagestretch: 4.0pt
 @colht:622.0pt
-FLUSHEND [output]: 274.0pt
+FLUSHEND [output]: 430.0pt
 FLUSHEND [leftcolumn badness]: 0
 FUSHEND [rightcolumn badness]: 12
  [3.3] (./paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: C7D4504F9626A2AAF7BA866101C5232C;1332.
+(rerunfilecheck)             Checksum: 9739F71EC8F694AC657F148407059BE2;1861.
  ) 
 Here is how much of TeX's memory you used:
- 20726 strings out of 480247
- 332253 string characters out of 5896150
- 678488 words of memory out of 5000000
- 37959 multiletter control sequences out of 15000+600000
- 554787 words of font info for 179 fonts, out of 8000000 for 9000
+ 20885 strings out of 480247
+ 335748 string characters out of 5896150
+ 678491 words of memory out of 5000000
+ 38066 multiletter control sequences out of 15000+600000
+ 567871 words of font info for 215 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 84i,11n,131p,998b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,11n,131p,998b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texlive/te
-xmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on paper.pdf (3 pages, 337604 bytes).
+r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/shar
+e/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texlive/te
+xmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</usr/share/texlive/texmf-di
+st/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/libertine/LinLibertineTI.pfb>
+Output written on paper.pdf (3 pages, 345647 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 36965 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 49277 words of extra memory for PDF output out of 51595 (max. 10000000)
 
