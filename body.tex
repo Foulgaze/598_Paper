@@ -33,7 +33,7 @@ Trilaterion works as follows: Each AP calculates its distance to the client devi
 Although we know which devices and localization methods we are going to use, there are many ways to determine how the robot will read and react to different scenarios. In order to avoid bias and help focus on overall feasibility, we propose three diverse routing methods that can fully test the potential of consumer robotic access points.
 
 \subsection{Roaming}
-The roaming method is an instinctive approach to routing with an indicator like RSSI. The idea is to feel for the location of optimal RSSI in a home. The robot should start off by roaming around its starting point randomly. If the RSSI has increased a favorable amount while moving in a given direction, the robot should set its new starting point to its current location and begin roaming once again. The robot should eventually converge to a location with an RSSI above a desired threshold and wait until quality worsens, where it will then repeat the process.\par
+The roaming method is an intuitive approach to routing with an indicator like RSSI. The idea is to feel for the location of optimal RSSI in a home. The robot should start off by roaming around its starting point randomly. If the RSSI has increased a favorable amount while moving in a given direction, the robot should set its new starting point to its current location and begin roaming once again. The robot should eventually converge to a location with an RSSI above a desired threshold and wait until quality worsens, where it will then repeat the process.\par
 Roaming has the benefit of, navigation aside, being dynamic to any environment with little user configuration. It could theoretically follow a user wherever they go and could be programmed to safely navigate the environment rather than move randomly, though this is not trivial.
 
 \subsection{Spinning}
@@ -46,7 +46,10 @@ This method relies less on localization and has predictable movement, which may 
 
 
 \section{Results/Validation}
-\Blindtext
+In evaluating how well the proposed methods function, we will be measuring 2 factors. The first factor is RSSI. As mentioned in the introduction, the primary goal of this project is to ensure strong WiFi signal strength from any location within a home. If the RSSI between the client and the AP converges to a higher value, it indicates that the movement method effectively strengthens the client’s connection. The second factor measured is time to converge. If the RSSI does converge but it takes hours to do so, it will not be useful in real world situations. The movement methods should converge within minutes of the user moving to a new location, barring extreme movement by the client.  
+\subsection{Roaming}
+\subsection{Spinning}
+\subsection{Save Points}
 
 \section{Conclusion}
 \blindtext
