@@ -48,8 +48,35 @@ This method relies less on localization and has predictable movement, which may 
 \section{Results/Validation}
 In evaluating how well the proposed methods function, we will be measuring 2 factors. The first factor is RSSI. As mentioned in the introduction, the primary goal of this project is to ensure strong WiFi signal strength from any location within a home. If the RSSI between the client and the AP converges to a higher value, it indicates that the movement method effectively strengthens the client’s connection. The second factor measured is time to converge. If the RSSI does converge but it takes hours to do so, it will not be useful in real world situations. The movement methods should converge within minutes of the user moving to a new location, barring extreme movement by the client.  
 \subsection{Roaming}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.5]{figures/rssi_roaming}
+\caption{RSSI of the Robot as it attempts to increase signal strength via the Roaming method. }
+\end{figure}
+
+While roaming may seem like an effective approach for lowering the RSSI quickly, it does quite the opposite. During our trials, we observed that the RSSI of the Robot did not consistently improve, often resulting in reduced connection quality. During our tests, we manipulated various factors in an effort to enhance roaming effectiveness, primarily adjusting the distance the robot traveled before re-averaging the RSSI. Despite changing the roaming parameters, the method itself proved ineffective. This can be seen in Figure 1 which is demonstrative of the results of our trials. The RSSI got worse over the 1.5 minute trial and had no clear convergence. 
+
+When thinking about why roaming doesn’t work as a solution, we must revisit how RSSI works. RSSI performs best within a 5 meter radius, where changes in signal strength are most noticeable. In our tests, with the robot ~15 meters from the AP, the RSSI changes from the robot did not consistently register as smaller when moving towards the router. Our tests tried movement distances up to 3 meters without registering a consistent change in RSSI. A greater movement distance than this would likely be necessary for the Robot to register a consistent change. This is not really feasible, as the robot could potentially move very far away from the router, causing a signal drop, or it would be unable to move such a great distance easily, as it must navigate through a house and cannot move in straight lines.
 \subsection{Spinning}
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.5]{figures/rssi_microwave}
+\caption{RSSI of the Robot as it attempts to increase signal strength via the Spinning method.}
+\end{figure}
+Aligning the antennas such that the difference in signal strength is maximized does work in theory but falls flat in practice. As shown in Figure 2, there is no clear improvement in RSSI, and much like with roaming, the RSSI got worse over the majority of our trials. While the robot would sometimes move in the correct direction, this was never consistently the case. 
+
+The issue with the spinning method is the antennas are not far enough apart to have a noticeable RSSI change between them. As stated earlier, RSSI changes are most noticeable within 5 meters, and when both antenna are ~15 meters away, RSSI is just not consistent enough for the difference in the antenna strengths to be significant. One could imagine a massive contraption that would place the antennas meters away from each other, but that would not be practical as it would 5x the floor profile of the robot. 
+
 \subsection{Save Points}
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.5]{figures/rssi_save_points}
+\caption{RSSI of the Robot as it attempts to increase signal strength via the Save points method.}
+\end{figure}
+Save points is the only algorithm we tested that consistently had successful results. During our tests, when we placed the client near a save point, the robot would consistently route to the nearest point and wait there until we moved the client to a new position. Figure 3 shows how long it took the robot to converge, but the timeline is not accurate due to the communication overhead between the robot and controller via Bluetooth. The robot converged in < 1 minute, ignoring communication, every time we placed the client in a position near a save point. This can be seen in Figure 3 where the RSSI plateaus around 200s and 650 seconds, which are both times the robot stopped as the RSSI was above the threshold for a strong connection. 
+
+Save points works well because it offers a structured roaming approach. By moving between save points that are placed at larger distances, the problem of RSSI not changing is avoided, and there are no routing issues since the robot follows the points like a grid. There are two downsides to save points: The first is that someone has to manually determine the points, and the second is that the robot could still path out of range of the router, but this could be fixed with a more intelligent approach that prevents pathing in a direction once the RSSI becomes bad enough. 
 
 \section{Conclusion}
 \blindtext
