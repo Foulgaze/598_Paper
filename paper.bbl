@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -53,6 +53,19 @@
 \showISBNx{9781450370233}
 \showDOI{%
 \url{https://doi.org/10.1145/3366423.3380169}}
+
+
+\bibitem[\protect\citeauthoryear{Niu, Li, Depeng, Li, and Athanasios}{Niu
+  et~al\mbox{.}}{2015}]%
+        {mmWaveSurvey}
+\bibfield{author}{\bibinfo{person}{Yong Niu}, \bibinfo{person}{Yong Li},
+  \bibinfo{person}{Jin Depeng}, \bibinfo{person}{Su Li}, {and}
+  \bibinfo{person}{Vasilakos Athanasios}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A survey of millimeter wave communications (mmWave)
+  for 5G: opportunities and challenges.}
+\newblock \bibinfo{journal}{{\em Wireless Networks\/}} \bibinfo{volume}{21},
+  \bibinfo{number}{8} (\bibinfo{year}{2015}), \bibinfo{pages}{2657--2676}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Sadowski and Spachos}{Sadowski and
