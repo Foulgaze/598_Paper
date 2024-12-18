@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 22:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -766,23 +766,22 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Underfull \vbox (badness 7851) has occurred while \output is active []
-
- [2.2]
-<figures/rssi_roaming.png, id=104, 462.528pt x 346.896pt>
+) [2.2]
+<figures/rssi_roaming.png, id=106, 462.528pt x 346.896pt>
 File: figures/rssi_roaming.png Graphic file (type png)
 <use figures/rssi_roaming.png>
 Package pdftex.def Info: figures/rssi_roaming.png  used on input line 77.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-[3.3 <./figures/antennas_comparison.png>]
-<figures/rssi_microwave.png, id=113, 462.528pt x 346.896pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3.3 <./figures/antennas_comparison.png>]
+<figures/rssi_microwave.png, id=114, 462.528pt x 346.896pt>
 File: figures/rssi_microwave.png Graphic file (type png)
 <use figures/rssi_microwave.png>
 Package pdftex.def Info: figures/rssi_microwave.png  used on input line 95.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<figures/rssi_save_points.png, id=115, 462.528pt x 346.896pt>
+<figures/rssi_save_points.png, id=116, 462.528pt x 346.896pt>
 File: figures/rssi_save_points.png Graphic file (type png)
 <use figures/rssi_save_points.png>
 Package pdftex.def Info: figures/rssi_save_points.png  used on input line 113.
@@ -797,30 +796,34 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
  [4.4 <./figures/rssi_roaming.png> <./figures/rssi_microwave.png> <./figures/rs
 si_save_points.png>])
-(./paper.bbl)
-[leftcolumn badness]: 1000000 on 12.05556pt
-[rightcolumn badness]: 1000000 on 12.05556pt
-[leftcolumn badness]: 1000000 on 12.05556pt
-[rightcolumn badness]: 1000000 on 12.05556pt
-[leftcolumn badness]: 1000000 on 12.05556pt
-[rightcolumn badness]: 1000000 on 12.05556pt
-[leftcolumn badness]: 1000000 on 12.05556pt
-[rightcolumn badness]: 1000000 on 12.05556pt
-[leftcolumn badness]: 1000000 on 12.05556pt
-[rightcolumn badness]: 1000000 on 12.05556pt
+(./paper.bbl
+Underfull \vbox (badness 3271) has occurred while \output is active []
+
+)
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
 - LAST -
 Extra skip:11.94444pt
-Left:324.0pt/1.94444pt
-Right:312.0pt/2.0pt
-Split: 324.0pt
-Output:324.0pt
+Left:348.0pt/1.94444pt
+Right:336.0pt/2.0pt
+Split: 348.0pt
+Output:348.0pt
 Pageshrink: 0.0pt
 Pagestretch: 0.0pt
 @colht:622.0pt
-FLUSHEND [output]: 324.0pt
+FLUSHEND [output]: 348.0pt
 FLUSHEND [leftcolumn badness]: 0
 FUSHEND [rightcolumn badness]: 10000
- [5.5] (./paper.aux)
+ [5.5]
+(./paper.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -847,10 +850,10 @@ blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti8.pfb>
-Output written on paper.pdf (5 pages, 324518 bytes).
+Output written on paper.pdf (5 pages, 324735 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 186 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
  28845 words of extra memory for PDF output out of 29859 (max. 10000000)
 
