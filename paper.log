@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 22:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -787,8 +787,17 @@ File: figures/rssi_save_points.png Graphic file (type png)
 <use figures/rssi_save_points.png>
 Package pdftex.def Info: figures/rssi_save_points.png  used on input line 113.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+21.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 121.
  [4.4 <./figures/rssi_roaming.png> <./figures/rssi_microwave.png> <./figures/rs
-si_save_points.png>]) (./paper.bbl)
+si_save_points.png>])
+(./paper.bbl)
 [leftcolumn badness]: 1000000 on 12.05556pt
 [rightcolumn badness]: 1000000 on 12.05556pt
 [leftcolumn badness]: 1000000 on 12.05556pt
@@ -811,8 +820,7 @@ Pagestretch: 0.0pt
 FLUSHEND [output]: 324.0pt
 FLUSHEND [leftcolumn badness]: 0
 FUSHEND [rightcolumn badness]: 10000
-
-[5.5] (./paper.aux)
+ [5.5] (./paper.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -821,27 +829,28 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: DD7E952E72493A20E272F6EBC6715872;2237.
  ) 
 Here is how much of TeX's memory you used:
- 17477 strings out of 476227
- 280154 string characters out of 5796852
+ 17498 strings out of 476227
+ 280519 string characters out of 5796852
  1948555 words of memory out of 5000000
- 38817 multiletter control sequences out of 15000+600000
+ 38834 multiletter control sequences out of 15000+600000
  569389 words of font info for 133 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  90i,11n,131p,1047b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti8.pfb>
-Output written on paper.pdf (5 pages, 317535 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti8.pfb>
+Output written on paper.pdf (5 pages, 324518 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
  28845 words of extra memory for PDF output out of 29859 (max. 10000000)
 
