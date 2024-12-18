@@ -1071,14 +1071,14 @@
   \ifx\acmConference@shortname\@empty
     \gdef\acmConference@shortname{#2}%
   \fi}
-\acmConference[SIGCOMM'18]{ACM Conference}{August 21-23, 2018}{Budapest, Hungary}
+  \acmConference[CS 598]{ACM Conference}{Fall 2024}{Champaign, Illinois}
 \def\acmBooktitle#1{\gdef\@acmBooktitle{#1}}
 \acmBooktitle{Proceedings of \acmConference@name
        \ifx\acmConference@name\acmConference@shortname\else
          \ (\acmConference@shortname)\fi}
 \def\@editorsAbbrev{(Ed.)}
 \def\@acmEditors{}
-\def\editor#1{\ifx\@acmEditors\@empty
+\def\editor#1{\ifx\@acmEditors\@empty\acmConference[CS 537]{ACM Conference}{Fall, 2024}{Champaign, Illinois}
     \gdef\@acmEditors{#1}%
   \else
     \gdef\@editorsAbbrev{(Eds.)}%
