@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -80,6 +80,18 @@
 \newblock
 \showDOI{%
 \url{https://doi.org/10.1109/ACCESS.2018.2843325}}
+
+
+\bibitem[\protect\citeauthoryear{Wilson}{Wilson}{2003}]%
+        {wirelessPenetration}
+\bibfield{author}{\bibinfo{person}{Robert~D. Wilson}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Propagation Losses Through Common Building
+  Materials 2 . 4 GHz vs 5 GHz Reflection and Transmission Losses Through
+  Common Building Materials}.
+\newblock
+\showURL{%
+\url{https://api.semanticscholar.org/CorpusID:15139194}}
 
 
 \end{thebibliography}

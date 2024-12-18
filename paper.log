@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.2)  17 DEC 2024 21:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -754,10 +754,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<figures/antennas_comparison.png, id=92, 867.24pt x 433.62pt>
+<figures/antennas_comparison.png, id=94, 867.24pt x 433.62pt>
 File: figures/antennas_comparison.png Graphic file (type png)
 <use figures/antennas_comparison.png>
-Package pdftex.def Info: figures/antennas_comparison.png  used on input line 27
+Package pdftex.def Info: figures/antennas_comparison.png  used on input line 54
 .
 (pdftex.def)             Requested size: 506.295pt x 253.14728pt.
 
@@ -770,44 +770,52 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Underfull \vbox (badness 7851) has occurred while \output is active []
 
  [2.2]
-<figures/rssi_roaming.png, id=102, 462.528pt x 346.896pt>
+<figures/rssi_roaming.png, id=104, 462.528pt x 346.896pt>
 File: figures/rssi_roaming.png Graphic file (type png)
 <use figures/rssi_roaming.png>
-Package pdftex.def Info: figures/rssi_roaming.png  used on input line 58.
+Package pdftex.def Info: figures/rssi_roaming.png  used on input line 116.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3 <./figures/antennas_comparison.png>]
-<figures/rssi_microwave.png, id=111, 462.528pt x 346.896pt>
+<figures/rssi_microwave.png, id=113, 462.528pt x 346.896pt>
 File: figures/rssi_microwave.png Graphic file (type png)
 <use figures/rssi_microwave.png>
-Package pdftex.def Info: figures/rssi_microwave.png  used on input line 69.
+Package pdftex.def Info: figures/rssi_microwave.png  used on input line 138.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<figures/rssi_save_points.png, id=113, 462.528pt x 346.896pt>
+<figures/rssi_save_points.png, id=115, 462.528pt x 346.896pt>
 File: figures/rssi_save_points.png Graphic file (type png)
 <use figures/rssi_save_points.png>
-Package pdftex.def Info: figures/rssi_save_points.png  used on input line 79.
+Package pdftex.def Info: figures/rssi_save_points.png  used on input line 158.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
  [4.4 <./figures/rssi_roaming.png> <./figures/rssi_microwave.png> <./figures/rs
 si_save_points.png>]) (./paper.bbl
 Underfull \vbox (badness 3271) has occurred while \output is active []
 
 )
-[leftcolumn badness]: 1000000 on 18.05556pt
-[rightcolumn badness]: 1000000 on 18.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
+[leftcolumn badness]: 1000000 on 36.05556pt
+[rightcolumn badness]: 1000000 on 36.05556pt
 - LAST -
-Extra skip:5.94444pt
-Left:324.0pt/1.94444pt
-Right:320.0pt/0.0pt
-Split: 324.0pt
-Output:324.0pt
+Extra skip:11.94444pt
+Left:348.0pt/1.94444pt
+Right:336.0pt/2.0pt
+Split: 348.0pt
+Output:348.0pt
 Pageshrink: 0.0pt
 Pagestretch: 0.0pt
 @colht:622.0pt
-FLUSHEND [output]: 324.0pt
+FLUSHEND [output]: 348.0pt
 FLUSHEND [leftcolumn badness]: 0
-FUSHEND [rightcolumn badness]: 800
+FUSHEND [rightcolumn badness]: 10000
  [5.5]
 (./paper.aux)
  ***********
@@ -818,10 +826,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: DD7E952E72493A20E272F6EBC6715872;2237.
  ) 
 Here is how much of TeX's memory you used:
- 17473 strings out of 476227
- 280049 string characters out of 5796852
- 1947555 words of memory out of 5000000
- 38814 multiletter control sequences out of 15000+600000
+ 17477 strings out of 476227
+ 280154 string characters out of 5796852
+ 1948555 words of memory out of 5000000
+ 38817 multiletter control sequences out of 15000+600000
  569389 words of font info for 133 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  90i,11n,131p,1047b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -835,10 +843,10 @@ pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti8.pfb>
-Output written on paper.pdf (5 pages, 317050 bytes).
+Output written on paper.pdf (5 pages, 317912 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  28845 words of extra memory for PDF output out of 29859 (max. 10000000)
 
