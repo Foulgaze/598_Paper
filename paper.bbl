@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,6 +36,24 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Narayanan, Ramadan, Carpenter, Liu, Liu, Qian,
+  and Zhang}{Narayanan et~al\mbox{.}}{2020}]%
+        {handBlock}
+\bibfield{author}{\bibinfo{person}{Arvind Narayanan}, \bibinfo{person}{Eman
+  Ramadan}, \bibinfo{person}{Jason Carpenter}, \bibinfo{person}{Qingxu Liu},
+  \bibinfo{person}{Yu Liu}, \bibinfo{person}{Feng Qian}, {and}
+  \bibinfo{person}{Zhi-Li Zhang}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A First Look at Commercial 5G Performance on
+  Smartphones}. In \bibinfo{booktitle}{{\em Proceedings of The Web Conference
+  2020}} {\em (\bibinfo{series}{WWW '20})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{894–905}.
+\newblock
+\showISBNx{9781450370233}
+\showDOI{%
+\url{https://doi.org/10.1145/3366423.3380169}}
+
 
 \bibitem[\protect\citeauthoryear{Sadowski and Spachos}{Sadowski and
   Spachos}{2018}]%

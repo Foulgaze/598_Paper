@@ -10,44 +10,46 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+Warning--numpages field, but no articleno or eid field, in handBlock
+You've used 2 entries,
             5795 wiz_defined-function locations,
-            1321 strings with 15495 characters,
-and the built_in function-call counts, 1508 in all, are:
-= -- 224
-> -- 38
+            1335 strings with 15873 characters,
+and the built_in function-call counts, 3065 in all, are:
+= -- 383
+> -- 123
 < -- 0
-+ -- 13
-- -- 16
-* -- 88
-:= -- 142
-add.period$ -- 5
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 117
-empty$ -- 82
-format.name$ -- 20
-if$ -- 368
++ -- 44
+- -- 44
+* -- 219
+:= -- 310
+add.period$ -- 10
+call.type$ -- 2
+change.case$ -- 17
+chr.to.int$ -- 2
+cite$ -- 3
+duplicate$ -- 251
+empty$ -- 166
+format.name$ -- 52
+if$ -- 723
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 4
-newline$ -- 50
-num.names$ -- 8
-pop$ -- 33
+missing$ -- 9
+newline$ -- 60
+num.names$ -- 16
+pop$ -- 80
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 35
 quote$ -- 0
-skip$ -- 45
+skip$ -- 105
 stack$ -- 0
-substring$ -- 126
-swap$ -- 17
+substring$ -- 223
+swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
-warning$ -- 0
-while$ -- 10
+type$ -- 46
+warning$ -- 1
+while$ -- 15
 width$ -- 0
-write$ -- 58
+write$ -- 80
+(There was 1 warning)
